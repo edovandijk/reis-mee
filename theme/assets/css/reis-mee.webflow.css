@@ -1265,7 +1265,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  overflow: visible;
+  overflow: hidden;
   width: auto;
   height: auto;
   -webkit-box-pack: center;

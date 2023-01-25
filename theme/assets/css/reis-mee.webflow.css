@@ -535,7 +535,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  overflow: hidden;
+  overflow: visible;
   width: auto;
   height: auto;
   margin-top: 0px;
@@ -558,7 +558,7 @@ p {
 .image-list-list {
   display: -ms-grid;
   display: grid;
-  overflow: hidden;
+  overflow: visible;
   width: auto;
   height: auto;
   -webkit-box-pack: justify;
@@ -1123,7 +1123,7 @@ p {
   right: 0%;
   bottom: 0%;
   display: block;
-  overflow: hidden;
+  overflow: visible;
   width: 100%;
   height: 100%;
   -webkit-box-pack: center;
@@ -1180,10 +1180,8 @@ p {
 .image-7 {
   position: relative;
   display: inline-block;
-  overflow: hidden;
   width: 100%;
   height: auto;
-  max-width: none;
   opacity: 1;
 }
 
@@ -1201,7 +1199,7 @@ p {
 }
 
 .s4-chance {
-  position: absolute;
+  position: fixed;
   left: 0%;
   top: 0vh;
   right: 0%;
@@ -1214,7 +1212,7 @@ p {
   overflow: hidden;
   width: 100%;
   height: 0vh;
-  margin-top: 33.33vh;
+  margin-top: 22vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1241,7 +1239,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 78vw;
+  width: 80vw;
   height: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1265,7 +1263,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  overflow: hidden;
+  overflow: visible;
   width: auto;
   height: auto;
   -webkit-box-pack: center;
@@ -1277,12 +1275,15 @@ p {
   -ms-flex-align: center;
   align-items: center;
   box-shadow: 0 0 3vw 0 rgba(0, 0, 0, 0.7);
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .chance-list-list {
   position: relative;
   display: -ms-grid;
   display: grid;
+  overflow: hidden;
   width: 100%;
   height: auto;
   grid-auto-columns: 1fr;
@@ -1335,12 +1336,14 @@ p {
 
 .collection-list-wrapper-13 {
   position: relative;
+  overflow: hidden;
   width: 100%;
   height: 100%;
 }
 
 .collection-list-2 {
   position: relative;
+  overflow: hidden;
   width: 100%;
   height: 100%;
 }
@@ -2115,8 +2118,16 @@ p {
     display: none;
   }
 
+  .image-7 {
+    overflow: hidden;
+  }
+
   .s4-chance {
     margin-top: 22vh;
+  }
+
+  .selected-image-item {
+    height: 10vh;
   }
 
   .h4-destination {
@@ -2597,6 +2608,7 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    width: auto;
     height: 100vh;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
@@ -2604,6 +2616,8 @@ p {
     justify-content: flex-start;
     -o-object-fit: cover;
     object-fit: cover;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
   }
 
   .world.fixed {
@@ -2790,7 +2804,7 @@ p {
   }
 
   .selected-image-item {
-    height: 11vh;
+    height: 9vh;
   }
 
   .h4-destination {

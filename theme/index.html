@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html data-wf-page="62f4ccb1e7a1c54ee1e60473" data-wf-site="60730ddc22bcca6a37b64767"><head><link rel="preconnect" crossorigin="true" href="https://assets.website-files.com">
+<html data-wf-page="62f4ccb1e7a1c54ee1e60473" data-wf-site="60730ddc22bcca6a37b64767"><head><link rel="preconnect" crossorigin="true" href="https://assets.website-files.com">{%- seo seo -%}
   <meta charset="utf-8">
-  <title>Reis mee met Vie en Ee</title>
+  
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="zM3vShUtD8COfwel_CX43UtOw7bnVfYspy0PXtPEojw" name="google-site-verification">
+  
   <link href="/assets/css/normalize.css" rel="stylesheet" type="text/css">
   <link href="/assets/css/webflow.css" rel="stylesheet" type="text/css">
   <link href="/assets/css/reis-mee.webflow.css" rel="stylesheet" type="text/css">
@@ -19,7 +20,7 @@
         }</style></head>
 <body class="body">
   <div style="height:0vh" class="s4-chance wf-section">
-    {%- assign collection = collections.destination | sort: "_random" | limit: 8 -%}<div style="-webkit-transform:translate3d(0px, 25vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 25vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 25vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 25vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="chance-list-wrapper w-dyn-list">
+    {%- assign collection = collections.destination | sort: "_random" | limit: 12 -%}<div style="-webkit-transform:translate3d(0px, 25vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 25vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 25vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 25vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="chance-list-wrapper w-dyn-list">
       {%- unless collection.length == 0 -%}<div role="list" class="chance-list-list w-dyn-items">
         {%- for item in collection -%}<div role="listitem" class="chance-list-item w-dyn-item">
           <a data-w-id="01c379e1-7e4c-6276-0045-3abf226fe0c4" href="{{ item.url }}" class="link-block-3 w-inline-block">
@@ -27,11 +28,11 @@
           </a>
           {%- assign setItems = item.data.f_images-3 -%}<div class="collection-list-wrapper-13 w-dyn-list">
             {%- unless setItems.length == 0 -%}<div role="list" class="collection-list-2 w-dyn-items">
-              {%- for setItem in setItems -%}<div role="listitem" class="selected-image-item w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;37vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;19vw&quot;}]" src="{{ setItem.url }}" alt="{{ setItem.alt }}" class="image-7"></div>{%- endfor -%}
+              {%- for setItem in setItems -%}<div role="listitem" class="selected-image-item w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;19vw&quot;}]" src="{{ setItem.url }}" alt="{{ setItem.alt }}" class="image-7"></div>{%- endfor -%}
             </div>{%- endunless -%}
           <template><div class="collection-list-wrapper-13 w-dyn-list">
             <div role="list" class="collection-list-2 w-dyn-items">
-              <div role="listitem" class="selected-image-item w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;37vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;19vw&quot;}]" src="{# setItem.url #}" alt="{# setItem.alt #}" class="image-7"></div>
+              <div role="listitem" class="selected-image-item w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;19vw&quot;}]" src="{# setItem.url #}" alt="{# setItem.alt #}" class="image-7"></div>
             </div>
           </div></template></div>
         </div>{%- endfor -%}
@@ -66,7 +67,7 @@
             <div class="div-block-7">
               <h3 class="h3-year-100">{{ item.data.f_year }}</h3>
               <h4 class="h4-destination">{{ item.data.title }}</h4>
-            </div><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;26vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;17vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;11vw&quot;}]" src="{{ item.data.f_thumbnail.url }}" alt="{{ item.data.f_thumbnail.alt }}" class="image-4">
+            </div><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ item.data.f_thumbnail.url }}" alt="{{ item.data.f_thumbnail.alt }}" class="image-4">
           </a>
         </div>{%- endfor -%}
       </div>{%- endunless -%}
@@ -151,4 +152,4 @@ $('a').each(function() {
 .map-location {pointer-events: auto;}
 </style>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script>window.netlifyIdentity&&window.netlifyIdentity.on("init",a=>{a||window.netlifyIdentity.on("login",()=>{document.location.href="/admin/"})});</script></script></body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script>window.netlifyIdentity&&window.netlifyIdentity.on("init",a=>{a||window.netlifyIdentity.on("login",()=>{document.location.href="/admin/"})});</script><script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.1/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

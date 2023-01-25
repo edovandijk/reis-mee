@@ -109,7 +109,7 @@ collections:
         required: false
       - hint: ''
         name: f_city
-        label: Region
+        label: Destination(s)
         widget: relation
         required: false
         collection: destination

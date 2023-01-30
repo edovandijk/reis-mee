@@ -7,7 +7,7 @@ f_year: '2010'
 slug: usa-northeast
 f_thumbnail:
   url: >-
-    https://uploads-ssl.webflow.com/6074276f8512bba6a923dd8c/6086b6e5959e2799b653db4d_usa035thumb.jpg
+    https://uploads-ssl.webflow.com/6074276f8512bba6a923dd8c/63d7ae47e99fccda968e78a6_Thumbnail.jpg
   alt: null
 f_images-5:
   - url: >-
@@ -110,10 +110,10 @@ f_images-1:
     alt: null
 f_images-2:
   - url: >-
-      https://uploads-ssl.webflow.com/6074276f8512bba6a923dd8c/608acded4944114b79644882_usa028.JPG
+      https://uploads-ssl.webflow.com/6074276f8512bba6a923dd8c/63d7af631ddf2c56b32ca21d_DSCN3938.JPG
     alt: >-
       The Kaufmanns’ love for Bear Run’s rushing waterfalls inspired Wright to
-      imagine a residence cantilevered directly over them
+      imagine a residence cantilevered directly over them.
   - url: >-
       https://uploads-ssl.webflow.com/6074276f8512bba6a923dd8c/608acdedc4cd4960d64d36cd_usa025.JPG
     alt: null
@@ -327,9 +327,9 @@ f_images-4:
   - url: >-
       https://uploads-ssl.webflow.com/6074276f8512bba6a923dd8c/608acdfd8ab0e36d880e0f04_usa096.JPG
     alt: null
-updated-on: '2021-06-03T11:42:36.003Z'
+updated-on: '2023-01-30T11:54:22.035Z'
 created-on: '2021-04-26T13:07:18.408Z'
-published-on: '2022-08-11T11:43:32.951Z'
+published-on: '2023-01-30T12:20:45.015Z'
 f_x-coordinate-m: 32.8
 f_y-coordinate-m: 26.2
 layout: '[destination].html'

@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html data-wf-page="62f4ccb1e7a1c54ee1e60473" data-wf-site="60730ddc22bcca6a37b64767"><head><link rel="preconnect" crossorigin="true" href="https://assets.website-files.com">{%- seo seo -%}
+<html data-wf-page="62f4ccb1e7a1c54ee1e60473" data-wf-site="60730ddc22bcca6a37b64767"><head><link rel="preconnect" crossorigin="true" href="https://assets.website-files.com">
   <meta charset="utf-8">
-  
+  <title>Reis mee met Vie en Ee</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="zM3vShUtD8COfwel_CX43UtOw7bnVfYspy0PXtPEojw" name="google-site-verification">
-  
+  <meta content="Webflow" name="generator">
   <link href="/assets/css/normalize.css" rel="stylesheet" type="text/css">
   <link href="/assets/css/webflow.css" rel="stylesheet" type="text/css">
   <link href="/assets/css/reis-mee.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Oswald:200,300,400,500,600,700","Work Sans:300,regular,600,700"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
@@ -46,8 +48,8 @@
     {%- assign collection = collections.country | sort: "-created-on" -%}<div class="destination-list-wrapper w-dyn-list">
       {%- unless collection.length == 0 -%}<div role="list" class="destination-list w-dyn-items">
         {%- for item in collection -%}<div role="listitem" class="destination-item w-dyn-item">
-          <div class="location-html-embed-m w-embed"><a data-w-id="83613b82-61d1-f2c3-2c98-9226caef768d" href="https://viedo.nl/country/{{ item.data.slug }}" class="map-location w-inline-block" style="margin-top: {{ item.data.f_y-coordinate-m }}vh; margin-left: {{ item.data.f_x-coordinate-m }}vh;"><div class="map-dot" style="color: rgb(255, 39, 130);">•</div><div class="map-locname">{{ item.data.title }}</div></a></div>
-          <div class="location-html-embed w-embed"><a data-w-id="83613b82-61d1-f2c3-2c98-9226caef768d" href="https://viedo.nl/country/{{ item.data.slug }}" class="map-location w-inline-block" style="margin-top: {{ item.data.f_y-coordinate }}vw; margin-left: {{ item.data.f_x-coordinate }}vw;"><div class="map-dot" style="color: rgb(255, 39, 130);">•</div><div class="map-locname" style="transform: translate3d(-1vh, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0;">{{ item.data.title }}</div></a></div>
+          <div class="location-html-embed-m w-embed"><a data-w-id="83613b82-61d1-f2c3-2c98-9226caef768d" href="../country/{{ item.data.slug }}" class="map-location w-inline-block" style="margin-top: {{ item.data.f_y-coordinate-m }}vh; margin-left: {{ item.data.f_x-coordinate-m }}vh;"><div class="map-dot" style="color: rgb(255, 39, 130);">•</div><div class="map-locname">{{ item.data.title }}</div></a></div>
+          <div class="location-html-embed w-embed"><a data-w-id="83613b82-61d1-f2c3-2c98-9226caef768d" href="../country/{{ item.data.slug }}" class="map-location w-inline-block" style="margin-top: {{ item.data.f_y-coordinate }}vw; margin-left: {{ item.data.f_x-coordinate }}vw;"><div class="map-dot" style="color: rgb(255, 39, 130);">•</div><div class="map-locname" style="transform: translate3d(-1vh, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 0;">{{ item.data.title }}</div></a></div>
         </div>{%- endfor -%}
       </div>{%- endunless -%}
       {%- if collection.length == 0 -%}<div class="w-dyn-empty">
@@ -67,7 +69,7 @@
             <div class="div-block-7">
               <h3 class="h3-year-100">{{ item.data.f_year }}</h3>
               <h4 class="h4-destination">{{ item.data.title }}</h4>
-            </div><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ item.data.f_thumbnail.url }}" alt="{{ item.data.f_thumbnail.alt }}" class="image-4">
+            </div><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;24vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;18vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;19vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;10vw&quot;}]" src="{{ item.data.f_thumbnail.url }}" alt="{{ item.data.f_thumbnail.alt }}" class="image-4">
           </a>
         </div>{%- endfor -%}
       </div>{%- endunless -%}
@@ -152,4 +154,4 @@ $('a').each(function() {
 .map-location {pointer-events: auto;}
 </style>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script>window.netlifyIdentity&&window.netlifyIdentity.on("init",a=>{a||window.netlifyIdentity.on("login",()=>{document.location.href="/admin/"})});</script></body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script>window.netlifyIdentity&&window.netlifyIdentity.on("init",a=>{a||window.netlifyIdentity.on("login",()=>{document.location.href="/admin/"})});</script><script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.1/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

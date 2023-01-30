@@ -47,7 +47,7 @@
                 {%- if item.data.f_end-date -%}<p class="paragraph-2">{{ item.data.f_end-date | formatDate: "MMMM yyyy" }}</p>{%- endif -%}
               </div>
             </div>
-            <div class="div-block-6"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;40vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;22vw&quot;}]" src="{{ item.data.f_thumbnail.url }}" alt="{{ item.data.f_thumbnail.alt }}" class="image"></div>
+            <div class="div-block-6"><img src="{{ item.data.f_thumbnail.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;40vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;22vw&quot;}]" alt="{{ item.data.f_thumbnail.alt }}" class="image"></div>
           </a>
         </div>{%- endfor -%}
       </div>{%- endunless -%}
@@ -84,4 +84,4 @@ $('a').each(function() {
 });
 </script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script></body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.1/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

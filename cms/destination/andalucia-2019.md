@@ -1,7 +1,7 @@
 ---
 f_end-date: '2020-06-30T00:00:00.000Z'
 f_start-date: '2018-12-29T00:00:00.000Z'
-title: Andalucia
+title: Mijas
 f_year: 2018-20
 slug: andalucia-2019
 f_thumbnail:
@@ -81,9 +81,9 @@ f_images-1:
   - url: >-
       https://uploads-ssl.webflow.com/6074276f8512bba6a923dd8c/6074304e181b24483dd7e310_IMG_2203.jpeg
     alt: null
-updated-on: '2021-06-03T12:18:57.176Z'
+updated-on: '2023-01-24T11:46:13.221Z'
 created-on: '2021-04-12T11:39:21.294Z'
-published-on: '2022-08-11T11:43:32.951Z'
+published-on: '2023-01-24T13:25:19.661Z'
 f_images-2:
   - url: >-
       https://uploads-ssl.webflow.com/6074276f8512bba6a923dd8c/607434274473753a956fcbda_IMG_2154.jpeg

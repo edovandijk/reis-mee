@@ -27,16 +27,7 @@
         {%- for item in collection -%}<div role="listitem" class="chance-list-item w-dyn-item">
           <a data-w-id="01c379e1-7e4c-6276-0045-3abf226fe0c4" href="{{ item.url }}" class="link-block-3 w-inline-block">
             <h3 class="h3-year">{{ item.data.f_year }}</h3>
-          </a>
-          {%- assign setItems = item.data.f_images-3 -%}<div class="collection-list-wrapper-13 w-dyn-list">
-            {%- unless setItems.length == 0 -%}<div role="list" class="collection-list-2 w-dyn-items">
-              {%- for setItem in setItems -%}<div role="listitem" class="selected-image-item w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;19vw&quot;}]" src="{{ setItem.url }}" alt="{{ setItem.alt }}" class="image-7"></div>{%- endfor -%}
-            </div>{%- endunless -%}
-          <template><div class="collection-list-wrapper-13 w-dyn-list">
-            <div role="list" class="collection-list-2 w-dyn-items">
-              <div role="listitem" class="selected-image-item w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;19vw&quot;}]" src="{# setItem.url #}" alt="{# setItem.alt #}" class="image-7"></div>
-            </div>
-          </div></template></div>
+          </a><img src="{{ item.data.f_thumbnail.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;19vw&quot;}]" alt="{{ item.data.f_thumbnail.alt }}" class="image-7">
         </div>{%- endfor -%}
       </div>{%- endunless -%}
       {%- if collection.length == 0 -%}<div class="w-dyn-empty">
@@ -154,4 +145,4 @@ $('a').each(function() {
 .map-location {pointer-events: auto;}
 </style>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script>window.netlifyIdentity&&window.netlifyIdentity.on("init",a=>{a||window.netlifyIdentity.on("login",()=>{document.location.href="/admin/"})});</script></body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script>window.netlifyIdentity&&window.netlifyIdentity.on("init",a=>{a||window.netlifyIdentity.on("login",()=>{document.location.href="/admin/"})});</script><script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.1/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

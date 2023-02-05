@@ -542,37 +542,9 @@ collections:
             name: title
             widget: hidden
             default: Texts
-          - hint: 'Original text: <, key: 3c'
-            label: Text
-            name: 3c
-            widget: string
-          - hint: 'Original text: Home, key: 2268ff'
-            label: Text
-            name: 2268ff
-            widget: string
-          - hint: "Original text: \_–\_, key: 63b8d"
-            label: Text
-            name: 63b8d
-            widget: string
           - hint: 'Original text: No items found., key: 3d503d2b'
             label: Text
             name: 3d503d2b
-            widget: string
-          - hint: 'Original text: Made with , key: 5829796f'
-            label: Text
-            name: 5829796f
-            widget: string
-          - hint: 'Original text: by , key: 17ea9'
-            label: Text
-            name: 17ea9
-            widget: string
-          - hint: 'Original text: @just-edo, key: c475b8f'
-            label: Text
-            name: c475b8f
-            widget: string
-          - hint: 'Original text:  in Spain, key: 1a37d30e'
-            label: Text
-            name: 1a37d30e
             widget: string
           - hint: 'Original text: •, key: 2022'
             label: Text
@@ -610,19 +582,37 @@ collections:
             label: Text
             name: 783bff54
             widget: string
+          - hint: 'Original text: Made with , key: 5829796f'
+            label: Text
+            name: 5829796f
+            widget: string
+          - hint: 'Original text: by , key: 17ea9'
+            label: Text
+            name: 17ea9
+            widget: string
+          - hint: 'Original text: @just-edo, key: c475b8f'
+            label: Text
+            name: c475b8f
+            widget: string
+          - hint: 'Original text:  in Spain, key: 1a37d30e'
+            label: Text
+            name: 1a37d30e
+            widget: string
           - hint: 'Original text: Swipe >>, key: -1735d7a'
             label: Text
             name: '-1735d7a'
             widget: string
-          - hint: 'Original text: Page Not Found, key: -40b0787c'
+          - hint: 'Original text: <, key: 3c'
             label: Text
-            name: '-40b0787c'
+            name: 3c
             widget: string
-          - hint: >-
-              Original text: The page you are looking for doesn't exist or has
-              been moved, key: 556d64d8
+          - hint: 'Original text: Home, key: 2268ff'
             label: Text
-            name: 556d64d8
+            name: 2268ff
+            widget: string
+          - hint: "Original text: \_–\_, key: 63b8d"
+            label: Text
+            name: 63b8d
             widget: string
           - hint: 'Original text: Common HTML Tags, key: -3800ec47'
             label: Text
@@ -720,6 +710,16 @@ collections:
             label: Text
             name: 437b93b
             widget: string
+          - hint: 'Original text: Page Not Found, key: -40b0787c'
+            label: Text
+            name: '-40b0787c'
+            widget: string
+          - hint: >-
+              Original text: The page you are looking for doesn't exist or has
+              been moved, key: 556d64d8
+            label: Text
+            name: 556d64d8
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -728,10 +728,6 @@ collections:
             name: title
             widget: hidden
             default: Links
-          - hint: 'Original link: /, key: 2f'
-            label: Link
-            name: 2f
-            widget: string
           - hint: 'Original link: #, key: 23'
             label: Link
             name: '23'
@@ -739,6 +735,10 @@ collections:
           - hint: 'Original link: https://www.just-edo.com, key: 76ab5e28'
             label: Link
             name: 76ab5e28
+            widget: string
+          - hint: 'Original link: /, key: 2f'
+            label: Link
+            name: 2f
             widget: string
           - hint: 'Original link: https://just-edo.com, key: -6c484d4f'
             label: Link
@@ -779,7 +779,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-2b1beb3c'
+            name: '-1407bd52'
             widget: object
             fields:
               - name: url
@@ -792,7 +792,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-1407bd52'
+            name: '-2b1beb3c'
             widget: object
             fields:
               - name: url

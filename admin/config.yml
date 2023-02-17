@@ -602,6 +602,16 @@ collections:
             label: Text
             name: '-1735d7a'
             widget: string
+          - hint: 'Original text: Page Not Found, key: -40b0787c'
+            label: Text
+            name: '-40b0787c'
+            widget: string
+          - hint: >-
+              Original text: The page you are looking for doesn't exist or has
+              been moved, key: 556d64d8
+            label: Text
+            name: 556d64d8
+            widget: string
           - hint: 'Original text: <, key: 3c'
             label: Text
             name: 3c
@@ -710,16 +720,6 @@ collections:
             label: Text
             name: 437b93b
             widget: string
-          - hint: 'Original text: Page Not Found, key: -40b0787c'
-            label: Text
-            name: '-40b0787c'
-            widget: string
-          - hint: >-
-              Original text: The page you are looking for doesn't exist or has
-              been moved, key: 556d64d8
-            label: Text
-            name: 556d64d8
-            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -779,7 +779,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-1407bd52'
+            name: '-2b1beb3c'
             widget: object
             fields:
               - name: url
@@ -792,7 +792,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-2b1beb3c'
+            name: '-1407bd52'
             widget: object
             fields:
               - name: url

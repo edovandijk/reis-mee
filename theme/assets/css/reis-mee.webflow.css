@@ -1217,7 +1217,7 @@ p {
   display: flex;
   overflow: hidden;
   width: 100%;
-  height: 70vh;
+  height: 0vh;
   margin-top: 18vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1788,7 +1788,7 @@ p {
   display: flex;
   overflow: visible;
   width: 100vw;
-  height: 70vh;
+  height: 86vh;
   margin-top: 0vh;
   margin-bottom: auto;
   padding-top: 0vh;
@@ -1843,7 +1843,7 @@ p {
   line-height: 90%;
   font-weight: 400;
   text-align: center;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
 .div-block-6 {
@@ -1885,15 +1885,15 @@ p {
   display: -ms-flexbox;
   display: flex;
   width: 75vw;
-  height: auto;
+  height: 100%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .section-2 {
@@ -1914,10 +1914,12 @@ p {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  text-decoration: none;
 }
 
 .link-block-4 {
   margin-top: 8vh;
+  text-decoration: none;
 }
 
 .utility-page-wrap {
@@ -2132,6 +2134,10 @@ p {
     margin-top: 22vh;
   }
 
+  .chance-list-item {
+    height: 16vh;
+  }
+
   .selected-image-item {
     height: 10vh;
   }
@@ -2265,6 +2271,7 @@ p {
 
   .div-block-11 {
     height: auto;
+    text-decoration: none;
   }
 
   .location-html-embed-m {
@@ -2292,18 +2299,29 @@ p {
   .s1-regions {
     position: relative;
     top: 0vh;
+    height: 80vh;
   }
 
   .heading-22 {
     font-size: 2.5vw;
+    text-decoration: none;
   }
 
   .div-block-6.is--visible {
     height: auto;
   }
 
+  .collection-list-wrapper-14 {
+    height: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
   .link-block-4 {
     margin-top: 7vh;
+    text-decoration: none;
   }
 }
 
@@ -2449,6 +2467,10 @@ p {
     margin-top: 4vh;
   }
 
+  .chance-list-item {
+    height: 13vh;
+  }
+
   .image-8 {
     width: 20px;
     height: auto;
@@ -2556,6 +2578,7 @@ p {
 
   .credit.moving {
     position: relative;
+    margin-top: 15px;
   }
 
   .navigation {
@@ -2593,6 +2616,8 @@ p {
   }
 
   .year-list-list {
+    grid-column-gap: 0.25rem;
+    grid-row-gap: 0.25rem;
     -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -2614,7 +2639,7 @@ p {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    opacity: 0;
+    opacity: 1;
   }
 
   .world {
@@ -2811,6 +2836,14 @@ p {
     margin-top: 16vh;
   }
 
+  .chance-list-wrapper {
+    overflow: auto;
+  }
+
+  .chance-list-item {
+    height: 9.6vh;
+  }
+
   .chance-list-list {
     grid-column-gap: 1vh;
     grid-row-gap: 1vh;
@@ -2914,7 +2947,9 @@ p {
     right: 0px;
     bottom: 0px;
     z-index: 1;
-    padding-left: 6px;
+    padding-top: 1.5vh;
+    padding-bottom: 2vh;
+    padding-left: 0px;
   }
 
   .location-html-embed-m {
@@ -2955,6 +2990,7 @@ p {
   .heading-22 {
     font-size: 5vw;
     font-weight: 400;
+    letter-spacing: normal;
   }
 
   .div-block-6 {
@@ -2966,6 +3002,10 @@ p {
     height: auto;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .link-block-4 {
+    text-decoration: none;
   }
 }
 

@@ -651,7 +651,7 @@ f_images-4:
     alt: Our hotel in Paraty borders on the Rio Pereque Acu
 updated-on: '2022-08-11T11:50:28.761Z'
 created-on: '2021-04-20T09:50:49.494Z'
-published-on: '2022-08-11T11:50:38.525Z'
+published-on: '2023-02-16T15:14:02.382Z'
 f_x-coordinate-m: 50.5
 f_y-coordinate-m: 64.5
 f_images-8:

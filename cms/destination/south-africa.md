@@ -3,7 +3,7 @@ f_end-date: '2012-01-10T00:00:00.000Z'
 f_start-date: '2011-12-24T00:00:00.000Z'
 f_y-coordinate: 34
 f_x-coordinate: 51
-title: South Africa
+title: South Africa 2
 f_year: 2011/12
 f_thumbnail:
   url: >-
@@ -588,9 +588,9 @@ f_images-4:
   - url: >-
       https://uploads-ssl.webflow.com/6074276f8512bba6a923dd8c/60802116cd7fbd337e014df3_za148.JPG
     alt: null
-updated-on: '2021-06-03T11:53:45.798Z'
+updated-on: '2023-01-26T11:19:34.668Z'
 created-on: '2021-04-21T13:05:18.811Z'
-published-on: '2022-08-11T11:43:32.951Z'
+published-on: '2023-02-16T15:14:02.382Z'
 f_x-coordinate-m: 87
 f_y-coordinate-m: 72
 layout: '[destination].html'

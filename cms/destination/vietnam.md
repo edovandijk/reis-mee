@@ -699,7 +699,7 @@ f_images-4:
     alt: null
 updated-on: '2021-06-03T11:40:54.719Z'
 created-on: '2021-04-26T13:40:21.339Z'
-published-on: '2022-08-11T11:43:32.951Z'
+published-on: '2023-02-16T15:14:02.382Z'
 f_x-coordinate-m: 131
 f_y-coordinate-m: 42
 layout: '[destination].html'

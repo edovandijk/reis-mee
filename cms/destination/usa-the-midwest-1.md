@@ -147,7 +147,7 @@ f_images-2:
 slug: usa-the-midwest-1
 updated-on: '2023-01-30T13:20:24.395Z'
 created-on: '2023-01-30T12:19:47.478Z'
-published-on: '2023-01-30T13:20:38.022Z'
+published-on: '2023-02-16T15:14:02.382Z'
 layout: '[destination].html'
 tags: destination
 ---

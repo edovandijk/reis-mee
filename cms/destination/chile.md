@@ -3,7 +3,7 @@ f_end-date: '2011-01-17T00:00:00.000Z'
 f_start-date: '2010-12-25T00:00:00.000Z'
 f_y-coordinate: 36
 f_x-coordinate: 19.3
-title: Chile
+title: Northern Chile
 f_year: 2010/11
 slug: chile
 f_thumbnail:
@@ -488,13 +488,13 @@ f_images-4:
   - url: >-
       https://uploads-ssl.webflow.com/6074276f8512bba6a923dd8c/60856c4c9c2157515759d0cd_chili179.JPG
     alt: null
-updated-on: '2021-06-03T11:44:16.349Z'
+updated-on: '2023-01-24T11:52:01.437Z'
 created-on: '2021-04-25T13:25:38.479Z'
-published-on: '2022-08-11T11:43:32.951Z'
+published-on: '2023-02-16T15:14:02.382Z'
 f_x-coordinate-m: 34.2
 f_y-coordinate-m: 74
 layout: '[destination].html'
 tags: destination
 ---
 
-
+Winter holiday in the Northern part of Chile, from Santiago, Valparaíso, and the wine region, towards the western slopes of the Andes and the grandiose Atacama desert.

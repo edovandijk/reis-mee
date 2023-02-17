@@ -3,7 +3,7 @@ f_end-date: '2012-07-07T00:00:00.000Z'
 f_start-date: '2012-06-23T00:00:00.000Z'
 f_y-coordinate: 6.8
 f_x-coordinate: 46.4
-title: Italy
+title: Northern Italy
 f_year: '2012'
 slug: italy-2012
 f_thumbnail:
@@ -539,9 +539,9 @@ f_images-4:
   - url: >-
       https://uploads-ssl.webflow.com/6074276f8512bba6a923dd8c/60812c17318d2382f908521d_ita099.JPG
     alt: null
-updated-on: '2021-06-03T11:50:50.688Z'
+updated-on: '2023-01-24T11:45:00.500Z'
 created-on: '2021-04-22T08:03:08.423Z'
-published-on: '2022-08-11T11:43:32.951Z'
+published-on: '2023-02-16T15:14:02.382Z'
 f_x-coordinate-m: 78.6
 f_y-coordinate-m: 25.6
 layout: '[destination].html'

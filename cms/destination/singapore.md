@@ -8,7 +8,7 @@ f_thumbnail:
 slug: singapore
 updated-on: '2022-08-11T13:12:59.990Z'
 created-on: '2021-04-12T12:36:28.935Z'
-published-on: '2022-08-11T13:13:16.360Z'
+published-on: '2023-02-16T15:14:02.382Z'
 f_end-date: '2014-07-11T00:00:00.000Z'
 f_images-1:
   - url: >-

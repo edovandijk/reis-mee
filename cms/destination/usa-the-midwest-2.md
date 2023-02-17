@@ -150,7 +150,7 @@ f_images-2:
     alt: Durango & Silverton Railroad, San Juan National Forest
 updated-on: '2023-01-30T14:04:31.052Z'
 created-on: '2023-01-30T14:04:31.052Z'
-published-on: '2023-01-30T14:05:04.180Z'
+published-on: '2023-02-16T15:14:02.382Z'
 layout: '[destination].html'
 tags: destination
 ---

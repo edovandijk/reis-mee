@@ -1,14 +1,14 @@
 ---
 f_year: '2015'
-title: Japan
+title: Japan 1
 slug: japan
 f_thumbnail:
   url: >-
     https://uploads-ssl.webflow.com/6074276f8512bba6a923dd8c/60b8c5398e70e00174e34c8a_IMG_6430thumb.jpg
   alt: null
-updated-on: '2021-06-22T12:08:54.030Z'
+updated-on: '2023-02-17T12:10:08.076Z'
 created-on: '2021-04-12T12:33:21.972Z'
-published-on: '2022-08-11T11:43:32.951Z'
+published-on: '2023-02-17T12:11:50.598Z'
 f_images-1:
   - url: >-
       https://uploads-ssl.webflow.com/6074276f8512bba6a923dd8c/60abb7da944566c5117c35e5_jap001.JPG

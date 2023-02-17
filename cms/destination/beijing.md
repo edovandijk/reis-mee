@@ -9,7 +9,7 @@ f_thumbnail:
 slug: beijing
 updated-on: '2021-06-08T13:20:21.836Z'
 created-on: '2021-04-12T12:15:15.153Z'
-published-on: '2022-08-11T11:43:32.951Z'
+published-on: '2023-02-16T15:14:02.382Z'
 f_images-1:
   - url: >-
       https://uploads-ssl.webflow.com/6074276f8512bba6a923dd8c/607d5a5819c353ac13149f12_beij002.JPG
